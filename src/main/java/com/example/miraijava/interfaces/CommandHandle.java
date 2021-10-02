@@ -9,5 +9,10 @@ import net.mamoe.mirai.event.events.MessageEvent;
  * @Version 1.0
  */
 public interface CommandHandle {
+    /**
+     * 处理命令的抽象类
+     *
+     * @param event 事件
+     */
     void handleCommand(MessageEvent event);
 }

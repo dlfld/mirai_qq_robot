@@ -13,12 +13,15 @@ import net.mamoe.mirai.utils.BotConfiguration;
 import java.io.File;
 
 
+/**
+ * @author dailinfeng
+ */
 public class MiraiJavaApplication {
     public static void main(String[] args) {
         String qq = "3152364256";
         final String filePath = "src/work_dir";
         final String password = "";
-        Bot bot = BotFactory.INSTANCE.newBot(Long.parseLong(qq),password , new BotConfiguration() {{
+        Bot bot = BotFactory.INSTANCE.newBot(Long.parseLong(qq), password, new BotConfiguration() {{
             //设置登录协议
             setProtocol(MiraiProtocol.ANDROID_PAD);
             //设置工具目录
