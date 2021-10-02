@@ -17,7 +17,7 @@ public class MiraiJavaApplication {
     public static void main(String[] args) {
         String qq = "3152364256";
         final String filePath = "src/work_dir";
-        final String password = "2441086385dlf";
+        final String password = "";
         Bot bot = BotFactory.INSTANCE.newBot(Long.parseLong(qq),password , new BotConfiguration() {{
             //设置登录协议
             setProtocol(MiraiProtocol.ANDROID_PAD);
